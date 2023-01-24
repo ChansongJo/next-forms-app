@@ -1,4 +1,4 @@
-import { isDescriptionTag, isHeaderTag, isIgnoreTag, isListTag, isNotBlockTag, isTextNode } from '../utils/tag';
+import { isDescriptionTag, isHeaderTag, isIgnoreTag, isListTag, isNotBlockTag, isTextNode } from './tag';
 import { Block } from '../types/block';
 import { Header, setHeader } from '../types/header';
 import { HTMLElement, Node } from 'node-html-parser';

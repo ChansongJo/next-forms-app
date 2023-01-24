@@ -82,7 +82,7 @@ export async function webParser(url: string, runPuppeteer: boolean) {
       
       const blockDedup = new Set(blocks)
       blocks = Array.from(blockDedup)
-      console.log(blocks.length)
+      // console.log(blocks.length)
       // fs.writeFileSync('./output.json', JSON.stringify(blocks, null, 4));
 
     }

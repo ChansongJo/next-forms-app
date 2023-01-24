@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { webParser } from '../_src/services/webParser.service'
+import { webParser } from '../../src/services/webParser.service'
 
 type ResponseData = {
   data: unknown
