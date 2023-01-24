@@ -1,5 +1,5 @@
 import { parse, Options, HTMLElement } from 'node-html-parser';
-import * as fs from 'fs'
+// import * as fs from 'fs'
 import { ignoreTags } from '../constants/tag';
 import { fetchHtml, fetchHtmlWithHeadless } from '../utils/fetcher';
 import { extractBlocks } from '../utils/block';
@@ -50,7 +50,7 @@ export async function webParser(url: string, runPuppeteer: boolean) {
     } else {
       html = await fetchHtml(url)
     }
-    fs.writeFileSync('./output.html', html);
+    // fs.writeFileSync('./output.html', html);
     // 전처리
     html = html.replace("<br>", "\n")
     root = parse(html, {});
