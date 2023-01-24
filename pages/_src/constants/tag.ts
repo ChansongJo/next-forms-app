@@ -1,0 +1,5 @@
+export const headerTags = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']
+export const ignoreTags = ['area', 'base', 'col', 'embed', 'hr', 'img', 'input', 'textarea', 'link', 'meta', 'param', 'source', 'track', 'wbr', 'footer', 'figure', 'figcaption', 'menu', 'nav', 'script', 'noscript', 'table', 'button', 'label', 'video', 'audio', 'svg', 'g']
+export const blockTags = ['blockquote', 'div', 'dl', 'ul', 'ol', 'p', 'body', 'main', 'section', 'article', 'header', 'a']
+export const listTags = ['ol', 'ul']
+export const descriptionTags = ['dl']
